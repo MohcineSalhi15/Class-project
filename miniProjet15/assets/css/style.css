@@ -1,0 +1,70 @@
+.custom-background {
+    background-image: url('/assets/images/media/homeback.jpg');
+    background-size: cover;
+}
+.Image{
+    background-image: url('../images/media/back.jpg');
+    background-size: cover;
+}
+
+.cascading-right {
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(30px);
+}
+
+.error input {
+    border: 1px solid red;
+}
+
+.error small {
+    color: red;
+}
+
+.success input {
+    border: 1px solid green;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(213, 109, 109);
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+.vh-80 {
+    min-height: 80vh;
+}
+
+.vh-70 {
+    min-height: 70vh;
+}
+
+.black-opacity {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.section-title {
+    font-style: oblique;
+}
+button{
+    border: 5px solid #15f4ee;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+    background-color: black;
+    color: #15f4ee;
+}
+button:hover{
+    box-shadow: 0 5px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee;
+}
+.col-md-2{
+    background-color: wheat;
+}
+div.card.mb-3{
+    background-color:darksalmon;
+    margin-top: 10vh;
+}
+.section-title{
+    color: #15f4ee;
+}
